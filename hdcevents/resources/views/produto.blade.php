@@ -4,6 +4,11 @@
 
 @section('content')
 
-<h1>Tela de produtos</h1>
+@if ($id != null)
+
+    <h1>Exibindo produto id: {{ $id }}</h1>
+
+@endif
+
     
 @endsection
